@@ -3119,3 +3119,11 @@
 
 [2026-08-02] Skipping run: daily quota reached (count=4, target=4).
 [2026-08-02] Skipping run: daily quota reached (count=4, target=4).
+[2026-08-03] New day: target_runs=2
+[2026-08-03] Proceeding with run #1 of target 2.
+[2026-08-03T19:54:36.258554Z] Prompt generation FAILED: RuntimeError: HTTP 401: {"error":{"message":"You exceeded your current quota, please check your plan and billing details. For more information, visit https://www.perplexity.ai/settings/api.","type":"insufficient_quota","code":401}}
+
+[2026-08-03] Proceeding with run #2 of target 2.
+[2026-08-03T19:54:46.793223Z] Prompt generation FAILED: RuntimeError: HTTP 401: {"error":{"message":"You exceeded your current quota, please check your plan and billing details. For more information, visit https://www.perplexity.ai/settings/api.","type":"insufficient_quota","code":401}}
+
+[2026-08-03] Skipping run: daily quota reached (count=2, target=2).
